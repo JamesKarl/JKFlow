@@ -1,6 +1,6 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = '0.0.1' //YOUR LIBRARY VERSION
+version = '0.0.3' //YOUR LIBRARY VERSION
 
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
@@ -31,8 +31,8 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        repo = 'JKFlow'  //YOUR REPO NAME
-        name = 'JKFlow' //YOUR PACKAGE NAME
+        repo = 'utils'  //YOUR REPO NAME
+        name = 'flow' //YOUR PACKAGE NAME
         desc = 'An android utility lib.' // YOUR LIBRARY DESCRIPTION
         websiteUrl = 'https://github.com/JamesKarl/JKFlow' // YOUR SITE
         vcsUrl = 'https://github.com/JamesKarl/JKFlow.git' // YOUR GIT REPO

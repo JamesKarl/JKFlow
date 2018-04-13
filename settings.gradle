@@ -1,1 +1,1 @@
-include ':app', ':JKFlow'
+include ':app', ':flow'

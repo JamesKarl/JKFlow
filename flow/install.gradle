@@ -8,7 +8,7 @@ install {
             project {
                 packaging 'aar'
                 groupId 'jameskarl' // CREATE A GROUP ID FOR YOUR LIBRARY
-                artifactId 'JKFlow' // THE NAME OF YOUR MODULE
+                artifactId 'flow' // THE NAME OF YOUR MODULE
 
                 name 'JKFlow' // YOUR LIBRARY NAME
                 description 'An android utility lib.' // YOUR LIBRARY DESCRIPTION
