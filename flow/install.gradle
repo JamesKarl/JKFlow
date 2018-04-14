@@ -1,16 +1,16 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'jameskarl' // CREATE A GROUP ID FOR YOUR LIBRARY
+group = 'jameskarl.utils' // CREATE A GROUP ID FOR YOUR LIBRARY
 
 install {
     repositories.mavenInstaller {
         pom {
             project {
                 packaging 'aar'
-                groupId 'jameskarl' // CREATE A GROUP ID FOR YOUR LIBRARY
+                groupId 'jameskarl.utils' // CREATE A GROUP ID FOR YOUR LIBRARY
                 artifactId 'flow' // THE NAME OF YOUR MODULE
 
-                name 'JKFlow' // YOUR LIBRARY NAME
+                name 'flow' // YOUR LIBRARY NAME
                 description 'An android utility lib.' // YOUR LIBRARY DESCRIPTION
                 url 'https://github.com/JamesKarl/JKFlow' // YOUR SITE
 
